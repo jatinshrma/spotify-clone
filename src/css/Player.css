@@ -1,0 +1,14 @@
+.player {
+	display: flex;
+	flex-direction: column;
+}
+
+.player__body {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: calc(100% - 105px);
+	width: 100%;
+}
